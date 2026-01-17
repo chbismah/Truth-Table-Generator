@@ -328,6 +328,10 @@ int main()
     while (menu != 6)
     {
         cout << "====================== Truth Table Generator =====================\n";
+        cout << " OPERATORS:\n";
+        cout << "  ! : NOT         & : AND         | : OR\n";
+        cout << "  > : IMPLIES     = : EQUIVALENT  ( ) : Parentheses\n";
+        cout << "------------------------------------------------------------------\n";
         cout << "\n--- MAIN MENU ---\n";
         cout << "1. Generate truth table for expression\n";
         cout << "2. View/ Load saved results\n";
